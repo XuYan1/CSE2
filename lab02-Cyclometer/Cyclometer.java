@@ -3,8 +3,9 @@
 // Bicycle cyclometer program
 //
 // This program takes the time of each of the 2 trips and the number of times 
-// the front wheel rotated to calculate the length of each trips, the number of 
-// counts per trip, the distance of each trip, and the distance of both trips
+// the front wheel rotated to calculate the length of each trip, the number of 
+// counts of each trip, the distance of each trip, and the distance of both 
+// trips added together
 
 public class Cyclometer{
     
