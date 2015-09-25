@@ -1,29 +1,13 @@
-import java.util.Scanner;
-
-public class Average{
-
-public static void main(String[] args){
-
-Scanner input=new Scanner(System.in);
-
-double a, b, c, average;
-
-System.out.println("Enter the 1st number: ");
-
-a = input.nextDouble();
-
-System.out.println("Enter the 2nd number: ");
-
-b = input.nextDouble();
-
-System.out.println("Enter the 3rd number: ");
-
-c = input.nextDouble();
-
-average=(a+b+c)/3;
-
-System.out.println("The average is "+average);
-
-}
-
-}
+public class Average {
+        public static void main(String args[]) 
+        {    
+             int x = 10;
+             int  y = 1;
+             if (x != 10 && (x % 0 == 0)) { 
+                 System.out.println(y);
+             }
+             else {
+                 System.out.println(x);
+             } 
+        } 
+    }
