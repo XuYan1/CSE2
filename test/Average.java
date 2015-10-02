@@ -1,13 +1,14 @@
+import java.util.Scanner;
 public class Average {
         public static void main(String args[]) 
         {    
-             int x = 10;
-             int  y = 1;
-             if (x != 10 && (x % 0 == 0)) { 
-                 System.out.println(y);
-             }
-             else {
-                 System.out.println(x);
-             } 
-        } 
-    }
+int p = 3, q = 1, sum = 0;
+while (p <= 10)
+{
+     sum += p % q;
+     p++;
+     q++;
+}
+System.out.println(sum);
+}
+}
